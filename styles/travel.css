@@ -21,15 +21,21 @@
 .header {
     display: flex;
     justify-content: space-between;
+    width: 1184px;
+    height: 52px;
+    margin: 28px auto 0;
 }
 
-.header__logo {}
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
 
 .header__lang-link {
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-
+    color: #fff;
 }
 
 .header__lang-link:active {
@@ -40,24 +46,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 984px;
+    margin: 0 auto;
 }
 
 .lead__title {
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-
+    width: 720px;
+    height: 200px;
+    text-align: center;
+    margin: 56px 0 32px;
 }
 
 .lead__subtitle {
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
+    width: 640px;
+    height: 72px;
+    text-align: center;
+    margin: 0 0;
 }
 
 .lead__image {
     width: 984px;
     height: 615px;
+    margin: 64px auto 8px;
 }
 
 .caption {
@@ -66,9 +82,13 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    align-self: start;
+    margin: 0;
 }
 
-.intro {}
+.intro {
+    padding: 92px 0;
+}
 
 .intro__title {
     font-weight: 900;
@@ -76,6 +96,7 @@
     line-height: 58px;
     width: 690px;
     height: 58px;
+    margin: 0;
 }
 
 .intro__text {
@@ -84,6 +105,7 @@
     line-height: 163%;
     width: 690px;
     height: 208px;
+    margin: 40px 0 33px;
 }
 
 .intro__list {
@@ -92,6 +114,9 @@
     line-height: 18px;
     width: 690px;
     height: 90px;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 .intro__list_item {}
@@ -111,7 +136,11 @@
     width: 984px;
 }
 
-.place {}
+.place {
+    display: flex;
+    flex-direction: column;
+
+}
 
 .place__title {
     font-weight: 900;
@@ -138,6 +167,7 @@
     font-size: 12px;
     line-height: 12px;
     height: 12px;
+    color: #aaa;
 }
 
 .place__link {
@@ -146,6 +176,7 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
+    color: #fff;
 }
 
 .place__paragraph {
@@ -158,6 +189,7 @@
 .cover {
     width: 1184px;
     height: 740px;
+
 
 }
 
@@ -183,6 +215,7 @@
 .cover__background {
     width: 100%;
     height: 100%;
+    background-image: url(../images/cover-trains.jpg);
 
 }
 
@@ -195,6 +228,8 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
+    color: #fff;
+    text-decoration-line: none;
 }
 
 .footer__copyright {
