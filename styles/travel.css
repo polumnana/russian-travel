@@ -158,6 +158,7 @@
 .cover {
     width: 1184px;
     height: 740px;
+
 }
 
 .cover__title {
@@ -179,7 +180,11 @@
 
 .cover__overlay {}
 
-.cover__background {}
+.cover__background {
+    width: 100%;
+    height: 100%;
+
+}
 
 .footer {
     width: 1184px;
