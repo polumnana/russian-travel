@@ -234,10 +234,6 @@
     width: 1184px;
     height: 740px;
     margin: 92px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
     position: relative;
 }
@@ -269,12 +265,15 @@
     height: 100%;
     position: absolute;
     z-index: 2;
-    background-color: #2A2C2F;
-    opacity: 0.3;
+    background-color: rgba(41, 43, 46, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover__overlay:hover {
-    opacity: 0.8;
+    background-color: rgba(41, 43, 46, 0.8);
 }
 
 .cover__background {
