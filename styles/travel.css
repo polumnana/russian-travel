@@ -2,12 +2,16 @@
 @import url(../vendor/normalize.css);
 
 .page {
-    min-width: 1024px;
-    max-width: 1280px;
     margin: 0;
     font-family: Inter;
     color: #fff;
     background-color: #2A2C2F;
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        min-width: 1280px;
+    }
 }
 
 .page-big {
@@ -93,7 +97,8 @@
 }
 
 .intro {
-    padding: 92px 0;
+    margin: 92px auto;
+    width: 984px;
 }
 
 .intro__title {
