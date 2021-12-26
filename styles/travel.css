@@ -8,7 +8,6 @@
     font-family: Inter;
     color: #fff;
     background-color: #2A2C2F;
-
 }
 
 .page-big {
@@ -116,9 +115,6 @@
 }
 
 .intro__list {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
     width: 690px;
     height: 90px;
     margin: 0;
@@ -126,7 +122,11 @@
     list-style-type: none;
 }
 
-.intro__list_item {}
+.intro__list_item {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
 
 .photo-grid {
     width: 1184px;
@@ -160,33 +160,42 @@
 
 .places {
     width: 984px;
+    display: grid;
+    margin: 92px auto 0;
+    gap: 80px;
 }
 
 .place {
-    display: flex;
-    flex-direction: column;
-
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 48px 40px;
 }
 
 .place__title {
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    width: 460px;
-    height: 152px;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0 0;
 }
 
 .place__image {
     width: 460px;
     height: 460px;
+    grid-row: 2;
+    grid-column: 1;
 }
 
 .place__website {
-
-    width: 456px;
-    height: 46px;
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-
 
 .place__url-heading {
     font-weight: normal;
@@ -194,6 +203,7 @@
     line-height: 12px;
     height: 12px;
     color: #aaa;
+    margin: 0;
 }
 
 .place__link {
@@ -203,14 +213,22 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #fff;
+    margin-top: 12px;
 }
 
-.place__paragraph {
+.place__paragraphs {
     width: 484px;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
+    grid-row: 2;
+    grid-column: 2;
 }
+
+.place__paragraph {
+    margin: 0 0 26px;
+}
+
 
 .cover {
     width: 1184px;
@@ -240,14 +258,11 @@
     height: 66px;
     z-index: 3;
     text-align: center;
-
-
 }
 
 .cover__overlay {
     z-index: 2;
     opacity: 0.3;
-
 }
 
 .cover__background {
@@ -285,5 +300,4 @@
     font-size: 14px;
     line-height: 16px;
     margin: 0 0 0 auto;
-
 }
