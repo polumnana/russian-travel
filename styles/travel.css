@@ -190,17 +190,25 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__image {
-        height: 480px;
+        width: 100vw;
+        min-height: 480px;
+        /* object-position: center; */
+        /* object-fit: contain; */
         margin: 56px auto 8px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .lead__image {
-        height: 200px;
+        width: 100vw;
+        min-height: 200px;
+        object-position: center;
+        object-fit: contain;
         margin: 40px auto 8px;
     }
 }
+
+
 
 .caption {
     font-weight: normal;
