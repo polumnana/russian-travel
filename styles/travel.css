@@ -110,7 +110,7 @@
         font-size: 96px;
         line-height: 100px;
         width: 720px;
-        height: 200px;
+        min-height: 200px;
         text-align: center;
         margin: 56px 0 32px;
     }
@@ -120,13 +120,13 @@
         font-size: 30px;
         line-height: 36px;
         width: 640px;
-        height: 72px;
+        min-height: 72px;
         text-align: center;
         margin: 0 0;
     }
 
     .lead__image {
-        width: 984px;
+        width: 100%;
         height: 615px;
         margin: 64px auto 8px;
     }
