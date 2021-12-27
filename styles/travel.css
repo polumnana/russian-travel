@@ -192,8 +192,8 @@
     .lead__image {
         width: 100vw;
         min-height: 480px;
-        /* object-position: center; */
-        /* object-fit: contain; */
+        object-position: center;
+        object-fit: contain;
         margin: 56px auto 8px;
     }
 }
