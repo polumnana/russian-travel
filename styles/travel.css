@@ -408,6 +408,10 @@
     margin-top: 12px;
 }
 
+.place__link:hover {
+    opacity: .8;
+}
+
 .place__paragraphs {
     width: 484px;
     font-weight: normal;
@@ -500,6 +504,11 @@
 .footer__link:last-of-type {
     margin-right: 0;
 }
+
+.footer__link:hover {
+    opacity: .8;
+}
+
 
 .footer__copyright {
     font-weight: normal;
