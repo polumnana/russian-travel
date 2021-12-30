@@ -558,11 +558,9 @@
     margin: 0 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
     .cover__title {
-        width: 100%;
-        padding: 0 16px;
-        box-sizing: border-box;
+        width: 288px;
         font-size: 32px;
         line-height: 35px;
     }
@@ -577,11 +575,9 @@
     margin: 32px 0 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
     .cover__subtitle {
-        width: 100%;
-        padding: 0 16px;
-        box-sizing: border-box;
+        width: 288px;
         font-size: 14px;
         line-height: 16px;
         margin: 16px 0 0;
