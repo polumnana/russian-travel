@@ -1,7 +1,7 @@
 ### Проектная работа №3
 # **Путешествие по России**
 
-https://github.com/polumnana/russian-travel/
+https://polumnana.github.io/russian-travel/
 
 *Опробованы новые свойства и технологии:*
 * работа с макетом в *Figma*;
