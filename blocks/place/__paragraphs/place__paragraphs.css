@@ -1,10 +1,10 @@
 .place__paragraphs {
-    width: 484px;
+    max-width: 484px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__paragraphs {
-        width: 456px;
+        max-width: 456px;
     }
 }
 
@@ -12,7 +12,7 @@
     .place__paragraphs {
         font-style: normal;
         font-size: 16px;
-        width: 352px;
+        max-width: 352px;
     }
 }
 
